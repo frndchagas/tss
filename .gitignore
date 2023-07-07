@@ -1,0 +1,42 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Other files
+model.lp
+main// Parametros do CPLEX
+    // solver.setParam(IloCplex::Param::WorkMem, 2048 * 2);      // tamanho de RAM utilizada maxima
+    // solver.setParam(IloCplex::Param::MIP::Strategy::File, 2); // quando a RAM acaba, 1-guarda nos na memoria e compactado 2-guarda os nos em disco 3-guarda nos em disco e compactado
+    // solver.setParam(IloCplex::Param::TimeLimit, 3600);        // tempo limite
+    // solver.setParam(IloCplex::Param::Threads, 2);             // Numero de threads
+    // solver.setParam(IloCplex::Param::MIP::Interval, 100);     // Log a cada N nos
+    // solver.setOut(env.getNullStream());                       // Desabilitando saida do cplex
