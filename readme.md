@@ -10,11 +10,11 @@ Um exemplo prático do problema TSS pode ser observado em uma rede social. Supon
 
 O arquivo `data.txt` contém a seguinte entrada, que representa um grafo com 5 nós e 4 arestas:
 
-5 4
-1 2
-1 4
-2 4
-3 5
+5 4  
+1 2  
+1 4  
+2 4  
+3 5  
 
 
 A primeira linha contém dois números, o número de nós (5) e o número de arestas (4). Cada uma das linhas seguintes contém uma aresta do grafo, representada por dois números que são os identificadores dos nós conectados por essa aresta.
